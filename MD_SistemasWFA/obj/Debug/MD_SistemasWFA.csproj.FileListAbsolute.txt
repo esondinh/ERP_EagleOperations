@@ -1,0 +1,21 @@
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MD_SistemasWFA.exe.config
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MD_SistemasWFA.exe
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MD_SistemasWFA.pdb
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MaterialSkin.dll
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MetroFramework.Design.dll
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MetroFramework.dll
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.FormConfiguration.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.FormMain.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.FormOrder.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.FormTableOrdes.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.FormTable.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.Properties.Resources.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.ShowFormMessageNumbers.resources
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.csproj.GenerateResource.Cache
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.exe
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.pdb
+C:\Users\roy\documents\visual studio 2015\Projects\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.csprojResolveAssemblyReference.cache
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\MD_SistemasWFA\bin\Debug\MD_SistemasWFA.exe.config
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.exe
+C:\Users\roy\Documents\GitHub\ERP\EagleOperations\MD_SistemasWFA\MD_SistemasWFA\obj\Debug\MD_SistemasWFA.pdb

@@ -1,0 +1,1910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EagleModelStoreContainer" CdmEntityContainer="EagleEntities">
+    <EntitySetMapping Name="CLIt01_paciente">
+      <EntityTypeMapping TypeName="EagleModel.CLIt01_paciente">
+        <MappingFragment StoreEntitySet="CLIt01_paciente">
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="cod_paciente" ColumnName="cod_paciente" />
+          <ScalarProperty Name="nro_hist_clinica" ColumnName="nro_hist_clinica" />
+          <ScalarProperty Name="grupo_sanguineo" ColumnName="grupo_sanguineo" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_ocupacion" ColumnName="id_ocupacion" />
+          <ScalarProperty Name="id_salud_eps" ColumnName="id_salud_eps" />
+          <ScalarProperty Name="id_regimen_salud" ColumnName="id_regimen_salud" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt02_actividad">
+      <EntityTypeMapping TypeName="EagleModel.CLIt02_actividad">
+        <MappingFragment StoreEntitySet="CLIt02_actividad">
+          <ScalarProperty Name="id_actividad" ColumnName="id_actividad" />
+          <ScalarProperty Name="cod_actividad" ColumnName="cod_actividad" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_observacion" ColumnName="txt_observacion" />
+          <ScalarProperty Name="nro_orden" ColumnName="nro_orden" />
+          <ScalarProperty Name="id_actividad_prev" ColumnName="id_actividad_prev" />
+          <ScalarProperty Name="id_actividad_next" ColumnName="id_actividad_next" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt03_atencion">
+      <EntityTypeMapping TypeName="EagleModel.CLIt03_atencion">
+        <MappingFragment StoreEntitySet="CLIt03_atencion">
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+          <ScalarProperty Name="cod_atencion" ColumnName="cod_atencion" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_actividad" ColumnName="id_actividad" />
+          <ScalarProperty Name="id_cita" ColumnName="id_cita" />
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt04_atencion_dtl">
+      <EntityTypeMapping TypeName="EagleModel.CLIt04_atencion_dtl">
+        <MappingFragment StoreEntitySet="CLIt04_atencion_dtl">
+          <ScalarProperty Name="id_atencion_dtl" ColumnName="id_atencion_dtl" />
+          <ScalarProperty Name="cod_atencion_dtl" ColumnName="cod_atencion_dtl" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_actividad" ColumnName="id_actividad" />
+          <ScalarProperty Name="txt_observacion" ColumnName="txt_observacion" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt05_antece_alergia">
+      <EntityTypeMapping TypeName="EagleModel.CLIt05_antece_alergia">
+        <MappingFragment StoreEntitySet="CLIt05_antece_alergia">
+          <ScalarProperty Name="id_antece_alergia" ColumnName="id_antece_alergia" />
+          <ScalarProperty Name="cod_antece_alergia" ColumnName="cod_antece_alergia" />
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+          <ScalarProperty Name="txt_antecedentes" ColumnName="txt_antecedentes" />
+          <ScalarProperty Name="txt_alergias" ColumnName="txt_alergias" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt06_tipo_especialidad">
+      <EntityTypeMapping TypeName="EagleModel.CLIt06_tipo_especialidad">
+        <MappingFragment StoreEntitySet="CLIt06_tipo_especialidad">
+          <ScalarProperty Name="id_tipo_especialidad" ColumnName="id_tipo_especialidad" />
+          <ScalarProperty Name="cod_tipo_especialidad" ColumnName="cod_tipo_especialidad" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt07_especialidad_medica">
+      <EntityTypeMapping TypeName="EagleModel.CLIt07_especialidad_medica">
+        <MappingFragment StoreEntitySet="CLIt07_especialidad_medica">
+          <ScalarProperty Name="id_especialidad_medica" ColumnName="id_especialidad_medica" />
+          <ScalarProperty Name="cod_especialidad_medica" ColumnName="cod_especialidad_medica" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_tipo_especialidad" ColumnName="id_tipo_especialidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt08_funciones_vitales">
+      <EntityTypeMapping TypeName="EagleModel.CLIt08_funciones_vitales">
+        <MappingFragment StoreEntitySet="CLIt08_funciones_vitales">
+          <ScalarProperty Name="id_funciones_vitales" ColumnName="id_funciones_vitales" />
+          <ScalarProperty Name="cod_funciones_vitales" ColumnName="cod_funciones_vitales" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="sistoles" ColumnName="sistoles" />
+          <ScalarProperty Name="diastoles" ColumnName="diastoles" />
+          <ScalarProperty Name="pulsaciones" ColumnName="pulsaciones" />
+          <ScalarProperty Name="ritmo_respiratorio" ColumnName="ritmo_respiratorio" />
+          <ScalarProperty Name="temperatura" ColumnName="temperatura" />
+          <ScalarProperty Name="altura" ColumnName="altura" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="imc" ColumnName="imc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt09_anamnesis">
+      <EntityTypeMapping TypeName="EagleModel.CLIt09_anamnesis">
+        <MappingFragment StoreEntitySet="CLIt09_anamnesis">
+          <ScalarProperty Name="id_anamnesis" ColumnName="id_anamnesis" />
+          <ScalarProperty Name="cod_anamnesis" ColumnName="cod_anamnesis" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt10_examen_fisico">
+      <EntityTypeMapping TypeName="EagleModel.CLIt10_examen_fisico">
+        <MappingFragment StoreEntitySet="CLIt10_examen_fisico">
+          <ScalarProperty Name="id_examen_fisico" ColumnName="id_examen_fisico" />
+          <ScalarProperty Name="cod_examen_fisico" ColumnName="cod_examen_fisico" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt11_estudio_complementario">
+      <EntityTypeMapping TypeName="EagleModel.CLIt11_estudio_complementario">
+        <MappingFragment StoreEntitySet="CLIt11_estudio_complementario">
+          <ScalarProperty Name="id_estudio_complementario" ColumnName="id_estudio_complementario" />
+          <ScalarProperty Name="cod_estudio_complementario" ColumnName="cod_estudio_complementario" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt12_archivo_complementario">
+      <EntityTypeMapping TypeName="EagleModel.CLIt12_archivo_complementario">
+        <MappingFragment StoreEntitySet="CLIt12_archivo_complementario">
+          <ScalarProperty Name="id_archivo_complelemtario" ColumnName="id_archivo_complelemtario" />
+          <ScalarProperty Name="cod_archivo_complelemtario" ColumnName="cod_archivo_complelemtario" />
+          <ScalarProperty Name="id_estudio_complementario" ColumnName="id_estudio_complementario" />
+          <ScalarProperty Name="txt_path" ColumnName="txt_path" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt13_laboratorio">
+      <EntityTypeMapping TypeName="EagleModel.CLIt13_laboratorio">
+        <MappingFragment StoreEntitySet="CLIt13_laboratorio">
+          <ScalarProperty Name="id_laboratorio" ColumnName="id_laboratorio" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="hemograma" ColumnName="hemograma" />
+          <ScalarProperty Name="urinalisis" ColumnName="urinalisis" />
+          <ScalarProperty Name="perfil_renal" ColumnName="perfil_renal" />
+          <ScalarProperty Name="perfil_lipidico" ColumnName="perfil_lipidico" />
+          <ScalarProperty Name="perfil_hepatico" ColumnName="perfil_hepatico" />
+          <ScalarProperty Name="perfil_triode" ColumnName="perfil_triode" />
+          <ScalarProperty Name="panel_metabolico" ColumnName="panel_metabolico" />
+          <ScalarProperty Name="otros" ColumnName="otros" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt14_img_laboratorio">
+      <EntityTypeMapping TypeName="EagleModel.CLIt14_img_laboratorio">
+        <MappingFragment StoreEntitySet="CLIt14_img_laboratorio">
+          <ScalarProperty Name="id_img_laboratorio" ColumnName="id_img_laboratorio" />
+          <ScalarProperty Name="cod_img_laboratorio" ColumnName="cod_img_laboratorio" />
+          <ScalarProperty Name="id_laboratorio" ColumnName="id_laboratorio" />
+          <ScalarProperty Name="txt_path" ColumnName="txt_path" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt15_diagnostico">
+      <EntityTypeMapping TypeName="EagleModel.CLIt15_diagnostico">
+        <MappingFragment StoreEntitySet="CLIt15_diagnostico">
+          <ScalarProperty Name="id_diagnostico" ColumnName="id_diagnostico" />
+          <ScalarProperty Name="cod_diagnostico" ColumnName="cod_diagnostico" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="cod4_cie10" ColumnName="cod4_cie10" />
+          <ScalarProperty Name="txt_cie10" ColumnName="txt_cie10" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_cie10" ColumnName="id_cie10" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt16_cie10">
+      <EntityTypeMapping TypeName="EagleModel.CLIt16_cie10">
+        <MappingFragment StoreEntitySet="CLIt16_cie10">
+          <ScalarProperty Name="id_cie10" ColumnName="id_cie10" />
+          <ScalarProperty Name="cod_3" ColumnName="cod_3" />
+          <ScalarProperty Name="txt_categoria" ColumnName="txt_categoria" />
+          <ScalarProperty Name="cod_4" ColumnName="cod_4" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt17_tratamiento">
+      <EntityTypeMapping TypeName="EagleModel.CLIt17_tratamiento">
+        <MappingFragment StoreEntitySet="CLIt17_tratamiento">
+          <ScalarProperty Name="id_tratamiento" ColumnName="id_tratamiento" />
+          <ScalarProperty Name="cod_tratamiento" ColumnName="cod_tratamiento" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt18_evolucion">
+      <EntityTypeMapping TypeName="EagleModel.CLIt18_evolucion">
+        <MappingFragment StoreEntitySet="CLIt18_evolucion">
+          <ScalarProperty Name="id_evolucion" ColumnName="id_evolucion" />
+          <ScalarProperty Name="cod_evolucion" ColumnName="cod_evolucion" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_atencion" ColumnName="id_atencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIt19_cita">
+      <EntityTypeMapping TypeName="EagleModel.CLIt19_cita">
+        <MappingFragment StoreEntitySet="CLIt19_cita">
+          <ScalarProperty Name="id_cita" ColumnName="id_cita" />
+          <ScalarProperty Name="cod_cita" ColumnName="cod_cita" />
+          <ScalarProperty Name="fec_cita" ColumnName="fec_cita" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="txt_obs" ColumnName="txt_obs" />
+          <ScalarProperty Name="sn_asistencia" ColumnName="sn_asistencia" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+          <ScalarProperty Name="id_paciente" ColumnName="id_paciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CSHt01_caja_dtl">
+      <EntityTypeMapping TypeName="EagleModel.CSHt01_caja_dtl">
+        <MappingFragment StoreEntitySet="CSHt01_caja_dtl">
+          <ScalarProperty Name="id_caja_dtl" ColumnName="id_caja_dtl" />
+          <ScalarProperty Name="id_caja" ColumnName="id_caja" />
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+          <ScalarProperty Name="id_emp_autorizador" ColumnName="id_emp_autorizador" />
+          <ScalarProperty Name="sn_open" ColumnName="sn_open" />
+          <ScalarProperty Name="sn_close" ColumnName="sn_close" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="id_turno" ColumnName="id_turno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FISt01_control_numeracion">
+      <EntityTypeMapping TypeName="EagleModel.FISt01_control_numeracion">
+        <MappingFragment StoreEntitySet="FISt01_control_numeracion">
+          <ScalarProperty Name="id_control_numeracion" ColumnName="id_control_numeracion" />
+          <ScalarProperty Name="id_caja" ColumnName="id_caja" />
+          <ScalarProperty Name="id_can_vta" ColumnName="id_can_vta" />
+          <ScalarProperty Name="id_nivel" ColumnName="id_nivel" />
+          <ScalarProperty Name="id_tipo_numeracion" ColumnName="id_tipo_numeracion" />
+          <ScalarProperty Name="id_tipo_comp" ColumnName="id_tipo_comp" />
+          <ScalarProperty Name="txt_nro_serie" ColumnName="txt_nro_serie" />
+          <ScalarProperty Name="nro_inicial" ColumnName="nro_inicial" />
+          <ScalarProperty Name="nro_final" ColumnName="nro_final" />
+          <ScalarProperty Name="nro_actual" ColumnName="nro_actual" />
+          <ScalarProperty Name="txt_serie_impresora" ColumnName="txt_serie_impresora" />
+          <ScalarProperty Name="txt_info01" ColumnName="txt_info01" />
+          <ScalarProperty Name="txt_info02" ColumnName="txt_info02" />
+          <ScalarProperty Name="fecha01" ColumnName="fecha01" />
+          <ScalarProperty Name="fecha02" ColumnName="fecha02" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="locked_by" ColumnName="locked_by" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FISt02_nivel">
+      <EntityTypeMapping TypeName="EagleModel.FISt02_nivel">
+        <MappingFragment StoreEntitySet="FISt02_nivel">
+          <ScalarProperty Name="id_nivel" ColumnName="id_nivel" />
+          <ScalarProperty Name="cod_nivel" ColumnName="cod_nivel" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FISt03_tipo_numeracion">
+      <EntityTypeMapping TypeName="EagleModel.FISt03_tipo_numeracion">
+        <MappingFragment StoreEntitySet="FISt03_tipo_numeracion">
+          <ScalarProperty Name="id_tipo_numeracion" ColumnName="id_tipo_numeracion" />
+          <ScalarProperty Name="cod_tipo_numeracion" ColumnName="cod_tipo_numeracion" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRLt01_parametro">
+      <EntityTypeMapping TypeName="EagleModel.GRLt01_parametro">
+        <MappingFragment StoreEntitySet="GRLt01_parametro">
+          <ScalarProperty Name="id_parametro" ColumnName="id_parametro" />
+          <ScalarProperty Name="cod_parametro" ColumnName="cod_parametro" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="dec_valor" ColumnName="dec_valor" />
+          <ScalarProperty Name="txt_valor" ColumnName="txt_valor" />
+          <ScalarProperty Name="txt_obs" ColumnName="txt_obs" />
+          <ScalarProperty Name="sn_edit" ColumnName="sn_edit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRLt02_estado">
+      <EntityTypeMapping TypeName="EagleModel.GRLt02_estado">
+        <MappingFragment StoreEntitySet="GRLt02_estado">
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="cod_estado" ColumnName="cod_estado" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRLt03_horario">
+      <EntityTypeMapping TypeName="EagleModel.GRLt03_horario">
+        <MappingFragment StoreEntitySet="GRLt03_horario">
+          <ScalarProperty Name="id_horario" ColumnName="id_horario" />
+          <ScalarProperty Name="cod_horario" ColumnName="cod_horario" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRLt04_configuracion_caja">
+      <EntityTypeMapping TypeName="EagleModel.GRLt04_configuracion_caja">
+        <MappingFragment StoreEntitySet="GRLt04_configuracion_caja">
+          <ScalarProperty Name="id_config" ColumnName="id_config" />
+          <ScalarProperty Name="id_caja" ColumnName="id_caja" />
+          <ScalarProperty Name="txt_pathlog" ColumnName="txt_pathlog" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt01_medio_pago">
+      <EntityTypeMapping TypeName="EagleModel.MSTt01_medio_pago">
+        <MappingFragment StoreEntitySet="MSTt01_medio_pago">
+          <ScalarProperty Name="id_medio_pago" ColumnName="id_medio_pago" />
+          <ScalarProperty Name="cod_medio_pago" ColumnName="cod_medio_pago" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_tipo_medio_pago" ColumnName="id_tipo_medio_pago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt02_descuento">
+      <EntityTypeMapping TypeName="EagleModel.MSTt02_descuento">
+        <MappingFragment StoreEntitySet="MSTt02_descuento">
+          <ScalarProperty Name="id_descuento" ColumnName="id_descuento" />
+          <ScalarProperty Name="cod_descuento" ColumnName="cod_descuento" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="tipo_descuento" ColumnName="tipo_descuento" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="monto_min" ColumnName="monto_min" />
+          <ScalarProperty Name="monto_max" ColumnName="monto_max" />
+          <ScalarProperty Name="sn_descuen_periodo" ColumnName="sn_descuen_periodo" />
+          <ScalarProperty Name="sn_descuen_dia" ColumnName="sn_descuen_dia" />
+          <ScalarProperty Name="p1_fecha_ini" ColumnName="p1_fecha_ini" />
+          <ScalarProperty Name="p1_fecha_fin" ColumnName="p1_fecha_fin" />
+          <ScalarProperty Name="p1_hora_ini" ColumnName="p1_hora_ini" />
+          <ScalarProperty Name="p1_hora_fin" ColumnName="p1_hora_fin" />
+          <ScalarProperty Name="p2_fecha_ini" ColumnName="p2_fecha_ini" />
+          <ScalarProperty Name="p2_fecha_fin" ColumnName="p2_fecha_fin" />
+          <ScalarProperty Name="p2_hora_ini" ColumnName="p2_hora_ini" />
+          <ScalarProperty Name="p2_hora_fin" ColumnName="p2_hora_fin" />
+          <ScalarProperty Name="p3_fecha_ini" ColumnName="p3_fecha_ini" />
+          <ScalarProperty Name="p3_fecha_fin" ColumnName="p3_fecha_fin" />
+          <ScalarProperty Name="p3_hora_ini" ColumnName="p3_hora_ini" />
+          <ScalarProperty Name="p3_hora_fin" ColumnName="p3_hora_fin" />
+          <ScalarProperty Name="p4_fecha_ini" ColumnName="p4_fecha_ini" />
+          <ScalarProperty Name="p4_fecha_fin" ColumnName="p4_fecha_fin" />
+          <ScalarProperty Name="p4_hora_ini" ColumnName="p4_hora_ini" />
+          <ScalarProperty Name="p4_hora_fin" ColumnName="p4_hora_fin" />
+          <ScalarProperty Name="p5_fecha_ini" ColumnName="p5_fecha_ini" />
+          <ScalarProperty Name="p5_fecha_fin" ColumnName="p5_fecha_fin" />
+          <ScalarProperty Name="p5_hora_ini" ColumnName="p5_hora_ini" />
+          <ScalarProperty Name="p5_hora_fin" ColumnName="p5_hora_fin" />
+          <ScalarProperty Name="p6_fecha_ini" ColumnName="p6_fecha_ini" />
+          <ScalarProperty Name="p6_fecha_fin" ColumnName="p6_fecha_fin" />
+          <ScalarProperty Name="p6_hora_ini" ColumnName="p6_hora_ini" />
+          <ScalarProperty Name="p6_hora_fin" ColumnName="p6_hora_fin" />
+          <ScalarProperty Name="p7_fecha_ini" ColumnName="p7_fecha_ini" />
+          <ScalarProperty Name="p7_fecha_fin" ColumnName="p7_fecha_fin" />
+          <ScalarProperty Name="p7_hora_ini" ColumnName="p7_hora_ini" />
+          <ScalarProperty Name="p7_hora_fin" ColumnName="p7_hora_fin" />
+          <ScalarProperty Name="sn_domingo" ColumnName="sn_domingo" />
+          <ScalarProperty Name="sn_lunes" ColumnName="sn_lunes" />
+          <ScalarProperty Name="sn_martes" ColumnName="sn_martes" />
+          <ScalarProperty Name="sn_miercoles" ColumnName="sn_miercoles" />
+          <ScalarProperty Name="sn_jueves" ColumnName="sn_jueves" />
+          <ScalarProperty Name="sn_viernes" ColumnName="sn_viernes" />
+          <ScalarProperty Name="sn_sabado" ColumnName="sn_sabado" />
+          <ScalarProperty Name="dom_hora_ini" ColumnName="dom_hora_ini" />
+          <ScalarProperty Name="dom_hora_fin" ColumnName="dom_hora_fin" />
+          <ScalarProperty Name="lun_hora_ini" ColumnName="lun_hora_ini" />
+          <ScalarProperty Name="lun_hora_fin" ColumnName="lun_hora_fin" />
+          <ScalarProperty Name="mar_hora_ini" ColumnName="mar_hora_ini" />
+          <ScalarProperty Name="mar_hora_fin" ColumnName="mar_hora_fin" />
+          <ScalarProperty Name="mie_hora_ini" ColumnName="mie_hora_ini" />
+          <ScalarProperty Name="mie_hora_fin" ColumnName="mie_hora_fin" />
+          <ScalarProperty Name="jue_hora_ini" ColumnName="jue_hora_ini" />
+          <ScalarProperty Name="jue_hora_fin" ColumnName="jue_hora_fin" />
+          <ScalarProperty Name="vie_hora_ini" ColumnName="vie_hora_ini" />
+          <ScalarProperty Name="vie_hora_fin" ColumnName="vie_hora_fin" />
+          <ScalarProperty Name="sab_hora_ini" ColumnName="sab_hora_ini" />
+          <ScalarProperty Name="sab_hora_fin" ColumnName="sab_hora_fin" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt03_tipo_orden">
+      <EntityTypeMapping TypeName="EagleModel.MSTt03_tipo_orden">
+        <MappingFragment StoreEntitySet="MSTt03_tipo_orden">
+          <ScalarProperty Name="id_tipo_orden" ColumnName="id_tipo_orden" />
+          <ScalarProperty Name="cod_tipo_orden" ColumnName="cod_tipo_orden" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt04_canal_vta">
+      <EntityTypeMapping TypeName="EagleModel.MSTt04_canal_vta">
+        <MappingFragment StoreEntitySet="MSTt04_canal_vta">
+          <ScalarProperty Name="id_can_vta" ColumnName="id_can_vta" />
+          <ScalarProperty Name="cod_can_vta" ColumnName="cod_can_vta" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt05_razon">
+      <EntityTypeMapping TypeName="EagleModel.MSTt05_razon">
+        <MappingFragment StoreEntitySet="MSTt05_razon">
+          <ScalarProperty Name="id_razon" ColumnName="id_razon" />
+          <ScalarProperty Name="cod_razon" ColumnName="cod_razon" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt06_impuesto">
+      <EntityTypeMapping TypeName="EagleModel.MSTt06_impuesto">
+        <MappingFragment StoreEntitySet="MSTt06_impuesto">
+          <ScalarProperty Name="id_impuesto" ColumnName="id_impuesto" />
+          <ScalarProperty Name="cod_impuesto" ColumnName="cod_impuesto" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="por_impto" ColumnName="por_impto" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt07_estado_civil">
+      <EntityTypeMapping TypeName="EagleModel.MSTt07_estado_civil">
+        <MappingFragment StoreEntitySet="MSTt07_estado_civil">
+          <ScalarProperty Name="id_estado_civil" ColumnName="id_estado_civil" />
+          <ScalarProperty Name="cod_estado_civil" ColumnName="cod_estado_civil" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt08_location">
+      <EntityTypeMapping TypeName="EagleModel.MSTt08_location">
+        <MappingFragment StoreEntitySet="MSTt08_location">
+          <ScalarProperty Name="id_location" ColumnName="id_location" />
+          <ScalarProperty Name="cod_location" ColumnName="cod_location" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="fecha_negocio" ColumnName="fecha_negocio" />
+          <ScalarProperty Name="txt_direccion1" ColumnName="txt_direccion1" />
+          <ScalarProperty Name="txt_direccion2" ColumnName="txt_direccion2" />
+          <ScalarProperty Name="txt_abrev1" ColumnName="txt_abrev1" />
+          <ScalarProperty Name="txt_abrev2" ColumnName="txt_abrev2" />
+          <ScalarProperty Name="nro_ruc" ColumnName="nro_ruc" />
+          <ScalarProperty Name="fono1" ColumnName="fono1" />
+          <ScalarProperty Name="fono2" ColumnName="fono2" />
+          <ScalarProperty Name="txt_datos1" ColumnName="txt_datos1" />
+          <ScalarProperty Name="txt_datos2" ColumnName="txt_datos2" />
+          <ScalarProperty Name="txt_datos3" ColumnName="txt_datos3" />
+          <ScalarProperty Name="txt_datos4" ColumnName="txt_datos4" />
+          <ScalarProperty Name="sn_almacen" ColumnName="sn_almacen" />
+          <ScalarProperty Name="sn_location_current" ColumnName="sn_location_current" />
+          <ScalarProperty Name="id_tipo_location" ColumnName="id_tipo_location" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt09_tipo_location">
+      <EntityTypeMapping TypeName="EagleModel.MSTt09_tipo_location">
+        <MappingFragment StoreEntitySet="MSTt09_tipo_location">
+          <ScalarProperty Name="id_tipo_location" ColumnName="id_tipo_location" />
+          <ScalarProperty Name="cod_tipo_location" ColumnName="cod_tipo_location" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt10_impresora">
+      <EntityTypeMapping TypeName="EagleModel.MSTt10_impresora">
+        <MappingFragment StoreEntitySet="MSTt10_impresora">
+          <ScalarProperty Name="id_impresora" ColumnName="id_impresora" />
+          <ScalarProperty Name="cod_impresora" ColumnName="cod_impresora" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_ip" ColumnName="txt_ip" />
+          <ScalarProperty Name="id_tipo_impresora" ColumnName="id_tipo_impresora" />
+          <ScalarProperty Name="txt_marca" ColumnName="txt_marca" />
+          <ScalarProperty Name="txt_modelo" ColumnName="txt_modelo" />
+          <ScalarProperty Name="txt_info01" ColumnName="txt_info01" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt11_tipo_impresora">
+      <EntityTypeMapping TypeName="EagleModel.MSTt11_tipo_impresora">
+        <MappingFragment StoreEntitySet="MSTt11_tipo_impresora">
+          <ScalarProperty Name="id_tipo_impresora" ColumnName="id_tipo_impresora" />
+          <ScalarProperty Name="cod_tipo_impresora" ColumnName="cod_tipo_impresora" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_info01" ColumnName="txt_info01" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt12_caja">
+      <EntityTypeMapping TypeName="EagleModel.MSTt12_caja">
+        <MappingFragment StoreEntitySet="MSTt12_caja">
+          <ScalarProperty Name="id_caja" ColumnName="id_caja" />
+          <ScalarProperty Name="cod_caja" ColumnName="cod_caja" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_ip" ColumnName="txt_ip" />
+          <ScalarProperty Name="txt_info01" ColumnName="txt_info01" />
+          <ScalarProperty Name="txt_info02" ColumnName="txt_info02" />
+          <ScalarProperty Name="id_impresora" ColumnName="id_impresora" />
+          <ScalarProperty Name="id_impresora02" ColumnName="id_impresora02" />
+          <ScalarProperty Name="id_impresora03" ColumnName="id_impresora03" />
+          <ScalarProperty Name="id_impresora04" ColumnName="id_impresora04" />
+          <ScalarProperty Name="id_impresora05" ColumnName="id_impresora05" />
+          <ScalarProperty Name="id_impresora06" ColumnName="id_impresora06" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt13_turno">
+      <EntityTypeMapping TypeName="EagleModel.MSTt13_turno">
+        <MappingFragment StoreEntitySet="MSTt13_turno">
+          <ScalarProperty Name="id_turno" ColumnName="id_turno" />
+          <ScalarProperty Name="cod_turno" ColumnName="cod_turno" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+          <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt14_mesa">
+      <EntityTypeMapping TypeName="EagleModel.MSTt14_mesa">
+        <MappingFragment StoreEntitySet="MSTt14_mesa">
+          <ScalarProperty Name="id_mesa" ColumnName="id_mesa" />
+          <ScalarProperty Name="cod_mesa" ColumnName="cod_mesa" />
+          <ScalarProperty Name="txt_num" ColumnName="txt_num" />
+          <ScalarProperty Name="capacidad" ColumnName="capacidad" />
+          <ScalarProperty Name="id_can_vta" ColumnName="id_can_vta" />
+          <ScalarProperty Name="id_estado_mesa" ColumnName="id_estado_mesa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MSTt15_estado_mesa">
+      <EntityTypeMapping TypeName="EagleModel.MSTt15_estado_mesa">
+        <MappingFragment StoreEntitySet="MSTt15_estado_mesa">
+          <ScalarProperty Name="id_estado_mesa" ColumnName="id_estado_mesa" />
+          <ScalarProperty Name="cod_estado_mesa" ColumnName="cod_estado_mesa" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_color_hex" ColumnName="txt_color_hex" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERt01_usuario">
+      <EntityTypeMapping TypeName="EagleModel.PERt01_usuario">
+        <MappingFragment StoreEntitySet="PERt01_usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="cod_usuario" ColumnName="cod_usuario" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="txt_clave" ColumnName="txt_clave" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="sn_upd_requered" ColumnName="sn_upd_requered" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERt02_cliente">
+      <EntityTypeMapping TypeName="EagleModel.PERt02_cliente">
+        <MappingFragment StoreEntitySet="PERt02_cliente">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="cod_cliente" ColumnName="cod_cliente" />
+          <ScalarProperty Name="cod_tipo_per" ColumnName="cod_tipo_per" />
+          <ScalarProperty Name="nro_doc" ColumnName="nro_doc" />
+          <ScalarProperty Name="nro_ruc" ColumnName="nro_ruc" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="txt_ape_pat" ColumnName="txt_ape_pat" />
+          <ScalarProperty Name="txt_ape_mat" ColumnName="txt_ape_mat" />
+          <ScalarProperty Name="txt_pri_nom" ColumnName="txt_pri_nom" />
+          <ScalarProperty Name="txt_seg_nom" ColumnName="txt_seg_nom" />
+          <ScalarProperty Name="fec_nac" ColumnName="fec_nac" />
+          <ScalarProperty Name="txt_rzn_social" ColumnName="txt_rzn_social" />
+          <ScalarProperty Name="txt_nom_comercial" ColumnName="txt_nom_comercial" />
+          <ScalarProperty Name="nom_via" ColumnName="nom_via" />
+          <ScalarProperty Name="nro_via" ColumnName="nro_via" />
+          <ScalarProperty Name="nom_zona" ColumnName="nom_zona" />
+          <ScalarProperty Name="txt_direccion1" ColumnName="txt_direccion1" />
+          <ScalarProperty Name="txt_direccion2" ColumnName="txt_direccion2" />
+          <ScalarProperty Name="txt_referencia" ColumnName="txt_referencia" />
+          <ScalarProperty Name="txt_email1" ColumnName="txt_email1" />
+          <ScalarProperty Name="txt_email2" ColumnName="txt_email2" />
+          <ScalarProperty Name="txt_web" ColumnName="txt_web" />
+          <ScalarProperty Name="telef_fijo1" ColumnName="telef_fijo1" />
+          <ScalarProperty Name="telef_fijo2" ColumnName="telef_fijo2" />
+          <ScalarProperty Name="telef_fijo3" ColumnName="telef_fijo3" />
+          <ScalarProperty Name="celular1" ColumnName="celular1" />
+          <ScalarProperty Name="celular2" ColumnName="celular2" />
+          <ScalarProperty Name="celular3" ColumnName="celular3" />
+          <ScalarProperty Name="url_img" ColumnName="url_img" />
+          <ScalarProperty Name="info01" ColumnName="info01" />
+          <ScalarProperty Name="info02" ColumnName="info02" />
+          <ScalarProperty Name="info03" ColumnName="info03" />
+          <ScalarProperty Name="info04" ColumnName="info04" />
+          <ScalarProperty Name="info05" ColumnName="info05" />
+          <ScalarProperty Name="info06" ColumnName="info06" />
+          <ScalarProperty Name="info07" ColumnName="info07" />
+          <ScalarProperty Name="info08" ColumnName="info08" />
+          <ScalarProperty Name="info09" ColumnName="info09" />
+          <ScalarProperty Name="info10" ColumnName="info10" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_estado_civil" ColumnName="id_estado_civil" />
+          <ScalarProperty Name="id_via" ColumnName="id_via" />
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+          <ScalarProperty Name="id_dist" ColumnName="id_dist" />
+          <ScalarProperty Name="id_tipo_doc_identidad" ColumnName="id_tipo_doc_identidad" />
+          <ScalarProperty Name="id_nacionalidad" ColumnName="id_nacionalidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERt03_proveedor">
+      <EntityTypeMapping TypeName="EagleModel.PERt03_proveedor">
+        <MappingFragment StoreEntitySet="PERt03_proveedor">
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="cod_proveedor" ColumnName="cod_proveedor" />
+          <ScalarProperty Name="cod_tipo_per" ColumnName="cod_tipo_per" />
+          <ScalarProperty Name="nro_doc" ColumnName="nro_doc" />
+          <ScalarProperty Name="nro_ruc" ColumnName="nro_ruc" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="txt_ape_pat" ColumnName="txt_ape_pat" />
+          <ScalarProperty Name="txt_ape_mat" ColumnName="txt_ape_mat" />
+          <ScalarProperty Name="txt_pri_nom" ColumnName="txt_pri_nom" />
+          <ScalarProperty Name="txt_seg_nom" ColumnName="txt_seg_nom" />
+          <ScalarProperty Name="fec_nac" ColumnName="fec_nac" />
+          <ScalarProperty Name="txt_rzn_social" ColumnName="txt_rzn_social" />
+          <ScalarProperty Name="txt_nom_comercial" ColumnName="txt_nom_comercial" />
+          <ScalarProperty Name="nom_via" ColumnName="nom_via" />
+          <ScalarProperty Name="nro_via" ColumnName="nro_via" />
+          <ScalarProperty Name="nom_zona" ColumnName="nom_zona" />
+          <ScalarProperty Name="txt_direccion1" ColumnName="txt_direccion1" />
+          <ScalarProperty Name="txt_direccion2" ColumnName="txt_direccion2" />
+          <ScalarProperty Name="txt_referencia" ColumnName="txt_referencia" />
+          <ScalarProperty Name="txt_email1" ColumnName="txt_email1" />
+          <ScalarProperty Name="txt_email2" ColumnName="txt_email2" />
+          <ScalarProperty Name="txt_web" ColumnName="txt_web" />
+          <ScalarProperty Name="telef_fijo1" ColumnName="telef_fijo1" />
+          <ScalarProperty Name="telef_fijo2" ColumnName="telef_fijo2" />
+          <ScalarProperty Name="telef_fijo3" ColumnName="telef_fijo3" />
+          <ScalarProperty Name="celular1" ColumnName="celular1" />
+          <ScalarProperty Name="celular2" ColumnName="celular2" />
+          <ScalarProperty Name="celular3" ColumnName="celular3" />
+          <ScalarProperty Name="url_img" ColumnName="url_img" />
+          <ScalarProperty Name="info01" ColumnName="info01" />
+          <ScalarProperty Name="info02" ColumnName="info02" />
+          <ScalarProperty Name="info03" ColumnName="info03" />
+          <ScalarProperty Name="info04" ColumnName="info04" />
+          <ScalarProperty Name="info05" ColumnName="info05" />
+          <ScalarProperty Name="info06" ColumnName="info06" />
+          <ScalarProperty Name="info07" ColumnName="info07" />
+          <ScalarProperty Name="info08" ColumnName="info08" />
+          <ScalarProperty Name="info09" ColumnName="info09" />
+          <ScalarProperty Name="info10" ColumnName="info10" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_dist" ColumnName="id_dist" />
+          <ScalarProperty Name="id_via" ColumnName="id_via" />
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+          <ScalarProperty Name="id_tipo_doc_identidad" ColumnName="id_tipo_doc_identidad" />
+          <ScalarProperty Name="id_nacionalidad" ColumnName="id_nacionalidad" />
+          <ScalarProperty Name="id_estado_civil" ColumnName="id_estado_civil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERt04_empleado">
+      <EntityTypeMapping TypeName="EagleModel.PERt04_empleado">
+        <MappingFragment StoreEntitySet="PERt04_empleado">
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+          <ScalarProperty Name="cod_empleado" ColumnName="cod_empleado" />
+          <ScalarProperty Name="cod_tipo_per" ColumnName="cod_tipo_per" />
+          <ScalarProperty Name="id_tipo_doc_identidad" ColumnName="id_tipo_doc_identidad" />
+          <ScalarProperty Name="nro_doc" ColumnName="nro_doc" />
+          <ScalarProperty Name="nro_ruc" ColumnName="nro_ruc" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="txt_ape_pat" ColumnName="txt_ape_pat" />
+          <ScalarProperty Name="txt_ape_mat" ColumnName="txt_ape_mat" />
+          <ScalarProperty Name="txt_pri_nom" ColumnName="txt_pri_nom" />
+          <ScalarProperty Name="txt_seg_nom" ColumnName="txt_seg_nom" />
+          <ScalarProperty Name="fec_nac" ColumnName="fec_nac" />
+          <ScalarProperty Name="txt_rzn_social" ColumnName="txt_rzn_social" />
+          <ScalarProperty Name="txt_nom_comercial" ColumnName="txt_nom_comercial" />
+          <ScalarProperty Name="id_estado_civil" ColumnName="id_estado_civil" />
+          <ScalarProperty Name="id_via" ColumnName="id_via" />
+          <ScalarProperty Name="nom_via" ColumnName="nom_via" />
+          <ScalarProperty Name="nro_via" ColumnName="nro_via" />
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+          <ScalarProperty Name="nom_zona" ColumnName="nom_zona" />
+          <ScalarProperty Name="txt_direccion1" ColumnName="txt_direccion1" />
+          <ScalarProperty Name="txt_direccion2" ColumnName="txt_direccion2" />
+          <ScalarProperty Name="txt_referencia" ColumnName="txt_referencia" />
+          <ScalarProperty Name="txt_email1" ColumnName="txt_email1" />
+          <ScalarProperty Name="txt_email2" ColumnName="txt_email2" />
+          <ScalarProperty Name="txt_web" ColumnName="txt_web" />
+          <ScalarProperty Name="telef_fijo1" ColumnName="telef_fijo1" />
+          <ScalarProperty Name="telef_fijo2" ColumnName="telef_fijo2" />
+          <ScalarProperty Name="telef_fijo3" ColumnName="telef_fijo3" />
+          <ScalarProperty Name="celular1" ColumnName="celular1" />
+          <ScalarProperty Name="celular2" ColumnName="celular2" />
+          <ScalarProperty Name="celular3" ColumnName="celular3" />
+          <ScalarProperty Name="url_img" ColumnName="url_img" />
+          <ScalarProperty Name="info01" ColumnName="info01" />
+          <ScalarProperty Name="info02" ColumnName="info02" />
+          <ScalarProperty Name="info03" ColumnName="info03" />
+          <ScalarProperty Name="info04" ColumnName="info04" />
+          <ScalarProperty Name="info05" ColumnName="info05" />
+          <ScalarProperty Name="info06" ColumnName="info06" />
+          <ScalarProperty Name="info07" ColumnName="info07" />
+          <ScalarProperty Name="info08" ColumnName="info08" />
+          <ScalarProperty Name="info09" ColumnName="info09" />
+          <ScalarProperty Name="info10" ColumnName="info10" />
+          <ScalarProperty Name="fecha_ingreso" ColumnName="fecha_ingreso" />
+          <ScalarProperty Name="fecha_cese" ColumnName="fecha_cese" />
+          <ScalarProperty Name="salario_mensual" ColumnName="salario_mensual" />
+          <ScalarProperty Name="salario_quincenal" ColumnName="salario_quincenal" />
+          <ScalarProperty Name="salario_hora" ColumnName="salario_hora" />
+          <ScalarProperty Name="nro_hora_mes" ColumnName="nro_hora_mes" />
+          <ScalarProperty Name="nro_cuenta" ColumnName="nro_cuenta" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_dist" ColumnName="id_dist" />
+          <ScalarProperty Name="id_nacionalidad" ColumnName="id_nacionalidad" />
+          <ScalarProperty Name="id_entidad_financiera" ColumnName="id_entidad_financiera" />
+          <ScalarProperty Name="id_tipo_trabajador" ColumnName="id_tipo_trabajador" />
+          <ScalarProperty Name="id_situacion_educativa" ColumnName="id_situacion_educativa" />
+          <ScalarProperty Name="id_ocupacion" ColumnName="id_ocupacion" />
+          <ScalarProperty Name="id_regimen_pensionario" ColumnName="id_regimen_pensionario" />
+          <ScalarProperty Name="id_condicion_laboral" ColumnName="id_condicion_laboral" />
+          <ScalarProperty Name="id_periodo_remuneracion" ColumnName="id_periodo_remuneracion" />
+          <ScalarProperty Name="id_salud_eps" ColumnName="id_salud_eps" />
+          <ScalarProperty Name="id_situacion" ColumnName="id_situacion" />
+          <ScalarProperty Name="id_motivo_baja" ColumnName="id_motivo_baja" />
+          <ScalarProperty Name="id_modalidad_formativa" ColumnName="id_modalidad_formativa" />
+          <ScalarProperty Name="id_suspencion_laboral" ColumnName="id_suspencion_laboral" />
+          <ScalarProperty Name="id_regimen_salud" ColumnName="id_regimen_salud" />
+          <ScalarProperty Name="id_regimen_laboral" ColumnName="id_regimen_laboral" />
+          <ScalarProperty Name="id_especialidad_medica" ColumnName="id_especialidad_medica" />
+          <ScalarProperty Name="id_categoria_emp" ColumnName="id_categoria_emp" />
+          <ScalarProperty Name="id_clase_emp" ColumnName="id_clase_emp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERt05_categoria_emp">
+      <EntityTypeMapping TypeName="EagleModel.PERt05_categoria_emp">
+        <MappingFragment StoreEntitySet="PERt05_categoria_emp">
+          <ScalarProperty Name="id_categoria_emp" ColumnName="id_categoria_emp" />
+          <ScalarProperty Name="cod_categoria_emp" ColumnName="cod_categoria_emp" />
+          <ScalarProperty Name="txt_nombre" ColumnName="txt_nombre" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERt06_clase_emp">
+      <EntityTypeMapping TypeName="EagleModel.PERt06_clase_emp">
+        <MappingFragment StoreEntitySet="PERt06_clase_emp">
+          <ScalarProperty Name="id_clase_emp" ColumnName="id_clase_emp" />
+          <ScalarProperty Name="cod_clase_emp" ColumnName="cod_clase_emp" />
+          <ScalarProperty Name="txt_nombre" ColumnName="txt_nombre" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt01_marca">
+      <EntityTypeMapping TypeName="EagleModel.PROt01_marca">
+        <MappingFragment StoreEntitySet="PROt01_marca">
+          <ScalarProperty Name="id_marca" ColumnName="id_marca" />
+          <ScalarProperty Name="cod_marca" ColumnName="cod_marca" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt02_modelo">
+      <EntityTypeMapping TypeName="EagleModel.PROt02_modelo">
+        <MappingFragment StoreEntitySet="PROt02_modelo">
+          <ScalarProperty Name="id_modelo" ColumnName="id_modelo" />
+          <ScalarProperty Name="cod_modelo" ColumnName="cod_modelo" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_marca" ColumnName="id_marca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt03_familia">
+      <EntityTypeMapping TypeName="EagleModel.PROt03_familia">
+        <MappingFragment StoreEntitySet="PROt03_familia">
+          <ScalarProperty Name="id_familia" ColumnName="id_familia" />
+          <ScalarProperty Name="cod_familia" ColumnName="cod_familia" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt04_subfamilia">
+      <EntityTypeMapping TypeName="EagleModel.PROt04_subfamilia">
+        <MappingFragment StoreEntitySet="PROt04_subfamilia">
+          <ScalarProperty Name="id_subfamilia" ColumnName="id_subfamilia" />
+          <ScalarProperty Name="cod_subfamilia" ColumnName="cod_subfamilia" />
+          <ScalarProperty Name="id_familia" ColumnName="id_familia" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt05_grupo_prod">
+      <EntityTypeMapping TypeName="EagleModel.PROt05_grupo_prod">
+        <MappingFragment StoreEntitySet="PROt05_grupo_prod">
+          <ScalarProperty Name="id_grupo_prod" ColumnName="id_grupo_prod" />
+          <ScalarProperty Name="cod_grupo_prod" ColumnName="cod_grupo_prod" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt06_clase_prod">
+      <EntityTypeMapping TypeName="EagleModel.PROt06_clase_prod">
+        <MappingFragment StoreEntitySet="PROt06_clase_prod">
+          <ScalarProperty Name="id_clase_prod" ColumnName="id_clase_prod" />
+          <ScalarProperty Name="cod_clase_prod" ColumnName="cod_clase_prod" />
+          <ScalarProperty Name="id_familia" ColumnName="id_familia" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_grupo_prod" ColumnName="id_grupo_prod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt07_tipo_prod">
+      <EntityTypeMapping TypeName="EagleModel.PROt07_tipo_prod">
+        <MappingFragment StoreEntitySet="PROt07_tipo_prod">
+          <ScalarProperty Name="id_tipo_prod" ColumnName="id_tipo_prod" />
+          <ScalarProperty Name="cod_tipo_prod" ColumnName="cod_tipo_prod" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt08_precio_prod">
+      <EntityTypeMapping TypeName="EagleModel.PROt08_precio_prod">
+        <MappingFragment StoreEntitySet="PROt08_precio_prod">
+          <ScalarProperty Name="id_precio_prod" ColumnName="id_precio_prod" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="mto_pu_sin_igv_1" ColumnName="mto_pu_sin_igv_1" />
+          <ScalarProperty Name="mto_pu_sin_igv_2" ColumnName="mto_pu_sin_igv_2" />
+          <ScalarProperty Name="mto_pu_sin_igv_3" ColumnName="mto_pu_sin_igv_3" />
+          <ScalarProperty Name="mto_pu_sin_igv_4" ColumnName="mto_pu_sin_igv_4" />
+          <ScalarProperty Name="mto_pu_sin_igv_5" ColumnName="mto_pu_sin_igv_5" />
+          <ScalarProperty Name="mto_pu_sin_igv_6" ColumnName="mto_pu_sin_igv_6" />
+          <ScalarProperty Name="mto_pu_sin_igv_7" ColumnName="mto_pu_sin_igv_7" />
+          <ScalarProperty Name="mto_pu_sin_igv_8" ColumnName="mto_pu_sin_igv_8" />
+          <ScalarProperty Name="mto_pu_sin_igv_9" ColumnName="mto_pu_sin_igv_9" />
+          <ScalarProperty Name="mto_pu_sin_igv_10" ColumnName="mto_pu_sin_igv_10" />
+          <ScalarProperty Name="mto_pu_con_igv_1" ColumnName="mto_pu_con_igv_1" />
+          <ScalarProperty Name="mto_pu_con_igv_2" ColumnName="mto_pu_con_igv_2" />
+          <ScalarProperty Name="mto_pu_con_igv_3" ColumnName="mto_pu_con_igv_3" />
+          <ScalarProperty Name="mto_pu_con_igv_4" ColumnName="mto_pu_con_igv_4" />
+          <ScalarProperty Name="mto_pu_con_igv_5" ColumnName="mto_pu_con_igv_5" />
+          <ScalarProperty Name="mto_pu_con_igv_6" ColumnName="mto_pu_con_igv_6" />
+          <ScalarProperty Name="mto_pu_con_igv_7" ColumnName="mto_pu_con_igv_7" />
+          <ScalarProperty Name="mto_pu_con_igv_8" ColumnName="mto_pu_con_igv_8" />
+          <ScalarProperty Name="mto_pu_con_igv_9" ColumnName="mto_pu_con_igv_9" />
+          <ScalarProperty Name="mto_pu_con_igv_10" ColumnName="mto_pu_con_igv_10" />
+          <ScalarProperty Name="mto_costo_1" ColumnName="mto_costo_1" />
+          <ScalarProperty Name="mto_costo_2" ColumnName="mto_costo_2" />
+          <ScalarProperty Name="mto_costo_3" ColumnName="mto_costo_3" />
+          <ScalarProperty Name="mto_costo_4" ColumnName="mto_costo_4" />
+          <ScalarProperty Name="mto_costo_5" ColumnName="mto_costo_5" />
+          <ScalarProperty Name="mto_costo_6" ColumnName="mto_costo_6" />
+          <ScalarProperty Name="mto_costo_7" ColumnName="mto_costo_7" />
+          <ScalarProperty Name="mto_costo_8" ColumnName="mto_costo_8" />
+          <ScalarProperty Name="mto_costo_9" ColumnName="mto_costo_9" />
+          <ScalarProperty Name="mto_costo_10" ColumnName="mto_costo_10" />
+          <ScalarProperty Name="fec_efectivo_desde" ColumnName="fec_efectivo_desde" />
+          <ScalarProperty Name="fec_efectivo_hasta" ColumnName="fec_efectivo_hasta" />
+          <ScalarProperty Name="txt_obsv" ColumnName="txt_obsv" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt09_producto">
+      <EntityTypeMapping TypeName="EagleModel.PROt09_producto">
+        <MappingFragment StoreEntitySet="PROt09_producto">
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="cod_producto" ColumnName="cod_producto" />
+          <ScalarProperty Name="cod_producto2" ColumnName="cod_producto2" />
+          <ScalarProperty Name="cod_barra" ColumnName="cod_barra" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_um" ColumnName="id_um" />
+          <ScalarProperty Name="id_modelo" ColumnName="id_modelo" />
+          <ScalarProperty Name="por_impto" ColumnName="por_impto" />
+          <ScalarProperty Name="id_tipo_moneda" ColumnName="id_tipo_moneda" />
+          <ScalarProperty Name="mto_pvpu_con_igv" ColumnName="mto_pvpu_con_igv" />
+          <ScalarProperty Name="mto_pvmi_con_igv" ColumnName="mto_pvmi_con_igv" />
+          <ScalarProperty Name="mto_pvma_con_igv" ColumnName="mto_pvma_con_igv" />
+          <ScalarProperty Name="mto_pvpu_sin_igv" ColumnName="mto_pvpu_sin_igv" />
+          <ScalarProperty Name="mto_pvmi_sin_igv" ColumnName="mto_pvmi_sin_igv" />
+          <ScalarProperty Name="mto_pvma_sin_igv" ColumnName="mto_pvma_sin_igv" />
+          <ScalarProperty Name="costo_prod" ColumnName="costo_prod" />
+          <ScalarProperty Name="peso_prod" ColumnName="peso_prod" />
+          <ScalarProperty Name="largo_prod" ColumnName="largo_prod" />
+          <ScalarProperty Name="ancho_prod" ColumnName="ancho_prod" />
+          <ScalarProperty Name="altura_prod" ColumnName="altura_prod" />
+          <ScalarProperty Name="diametro_prod" ColumnName="diametro_prod" />
+          <ScalarProperty Name="url_img_prod" ColumnName="url_img_prod" />
+          <ScalarProperty Name="txt_referencia" ColumnName="txt_referencia" />
+          <ScalarProperty Name="sn_combo" ColumnName="sn_combo" />
+          <ScalarProperty Name="id_tipo_existencia" ColumnName="id_tipo_existencia" />
+          <ScalarProperty Name="id_subfamilia" ColumnName="id_subfamilia" />
+          <ScalarProperty Name="id_tipo_prod" ColumnName="id_tipo_prod" />
+          <ScalarProperty Name="id_clase_prod" ColumnName="id_clase_prod" />
+          <ScalarProperty Name="id_receta" ColumnName="id_receta" />
+          <ScalarProperty Name="sn_exento" ColumnName="sn_exento" />
+          <ScalarProperty Name="sn_inafecto" ColumnName="sn_inafecto" />
+          <ScalarProperty Name="sn_venta" ColumnName="sn_venta" />
+          <ScalarProperty Name="sn_compra" ColumnName="sn_compra" />
+          <ScalarProperty Name="sn_receta" ColumnName="sn_receta" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_impuesto" ColumnName="id_impuesto" />
+          <ScalarProperty Name="id_combo" ColumnName="id_combo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt10_receta">
+      <EntityTypeMapping TypeName="EagleModel.PROt10_receta">
+        <MappingFragment StoreEntitySet="PROt10_receta">
+          <ScalarProperty Name="id_receta" ColumnName="id_receta" />
+          <ScalarProperty Name="cod_receta" ColumnName="cod_receta" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_receta_grupo" ColumnName="id_receta_grupo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt11_receta_dtl">
+      <EntityTypeMapping TypeName="EagleModel.PROt11_receta_dtl">
+        <MappingFragment StoreEntitySet="PROt11_receta_dtl">
+          <ScalarProperty Name="id_receta_dtl" ColumnName="id_receta_dtl" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="txt_producto" ColumnName="txt_producto" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="id_um" ColumnName="id_um" />
+          <ScalarProperty Name="id_receta" ColumnName="id_receta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt12_receta_grupo">
+      <EntityTypeMapping TypeName="EagleModel.PROt12_receta_grupo">
+        <MappingFragment StoreEntitySet="PROt12_receta_grupo">
+          <ScalarProperty Name="id_receta_grupo" ColumnName="id_receta_grupo" />
+          <ScalarProperty Name="cod_receta_grupo" ColumnName="cod_receta_grupo" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt13_combo">
+      <EntityTypeMapping TypeName="EagleModel.PROt13_combo">
+        <MappingFragment StoreEntitySet="PROt13_combo">
+          <ScalarProperty Name="id_combo" ColumnName="id_combo" />
+          <ScalarProperty Name="cod_combo" ColumnName="cod_combo" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="mto_pvpu_sin_tax" ColumnName="mto_pvpu_sin_tax" />
+          <ScalarProperty Name="mto_pvpu_con_tax" ColumnName="mto_pvpu_con_tax" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_combo_grupo" ColumnName="id_combo_grupo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt14_combo_fixed_dtl">
+      <EntityTypeMapping TypeName="EagleModel.PROt14_combo_fixed_dtl">
+        <MappingFragment StoreEntitySet="PROt14_combo_fixed_dtl">
+          <ScalarProperty Name="id_combo_fixed_dtl" ColumnName="id_combo_fixed_dtl" />
+          <ScalarProperty Name="cod_combo_fixed_dtl" ColumnName="cod_combo_fixed_dtl" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="mto_pvpu_sin_tax" ColumnName="mto_pvpu_sin_tax" />
+          <ScalarProperty Name="mto_pvpu_con_tax" ColumnName="mto_pvpu_con_tax" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="id_combo" ColumnName="id_combo" />
+          <ScalarProperty Name="id_combo_variable" ColumnName="id_combo_variable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt15_combo_variable">
+      <EntityTypeMapping TypeName="EagleModel.PROt15_combo_variable">
+        <MappingFragment StoreEntitySet="PROt15_combo_variable">
+          <ScalarProperty Name="id_combo_variable" ColumnName="id_combo_variable" />
+          <ScalarProperty Name="cod_combo_variable" ColumnName="cod_combo_variable" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="mto_pvpu_sin_tax" ColumnName="mto_pvpu_sin_tax" />
+          <ScalarProperty Name="mto_pvpu_con_tax" ColumnName="mto_pvpu_con_tax" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt16_combo_variable_dtl">
+      <EntityTypeMapping TypeName="EagleModel.PROt16_combo_variable_dtl">
+        <MappingFragment StoreEntitySet="PROt16_combo_variable_dtl">
+          <ScalarProperty Name="id_combo_variable_dtl" ColumnName="id_combo_variable_dtl" />
+          <ScalarProperty Name="cod_combo_variable_dtl" ColumnName="cod_combo_variable_dtl" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="mto_pvpu_sin_tax" ColumnName="mto_pvpu_sin_tax" />
+          <ScalarProperty Name="mto_pvpu_con_tax" ColumnName="mto_pvpu_con_tax" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_combo_variable" ColumnName="id_combo_variable" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROt17_combo_grupo">
+      <EntityTypeMapping TypeName="EagleModel.PROt17_combo_grupo">
+        <MappingFragment StoreEntitySet="PROt17_combo_grupo">
+          <ScalarProperty Name="id_combo_grupo" ColumnName="id_combo_grupo" />
+          <ScalarProperty Name="cod_combo_grupo" ColumnName="cod_combo_grupo" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RPTt01_reporte">
+      <EntityTypeMapping TypeName="EagleModel.RPTt01_reporte">
+        <MappingFragment StoreEntitySet="RPTt01_reporte">
+          <ScalarProperty Name="id_reporte" ColumnName="id_reporte" />
+          <ScalarProperty Name="cod_reporte" ColumnName="cod_reporte" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="sn_date_range" ColumnName="sn_date_range" />
+          <ScalarProperty Name="sn_rvc_range" ColumnName="sn_rvc_range" />
+          <ScalarProperty Name="sn_empleado" ColumnName="sn_empleado" />
+          <ScalarProperty Name="sn_clase_empleado" ColumnName="sn_clase_empleado" />
+          <ScalarProperty Name="sn_producto_por_nombre" ColumnName="sn_producto_por_nombre" />
+          <ScalarProperty Name="sn_producto_por_familia" ColumnName="sn_producto_por_familia" />
+          <ScalarProperty Name="sn_producto_por_subfamilia" ColumnName="sn_producto_por_subfamilia" />
+          <ScalarProperty Name="sn_turno" ColumnName="sn_turno" />
+          <ScalarProperty Name="txt_path" ColumnName="txt_path" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_categoria_reporte" ColumnName="id_categoria_reporte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RPTt02_categoria_reporte">
+      <EntityTypeMapping TypeName="EagleModel.RPTt02_categoria_reporte">
+        <MappingFragment StoreEntitySet="RPTt02_categoria_reporte">
+          <ScalarProperty Name="id_categoria_reporte" ColumnName="id_categoria_reporte" />
+          <ScalarProperty Name="cod_categoria_reporte" ColumnName="cod_categoria_reporte" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt01_tipo_medio_pago">
+      <EntityTypeMapping TypeName="EagleModel.SNTt01_tipo_medio_pago">
+        <MappingFragment StoreEntitySet="SNTt01_tipo_medio_pago">
+          <ScalarProperty Name="id_tipo_medio_pago" ColumnName="id_tipo_medio_pago" />
+          <ScalarProperty Name="cod_tipo_medio_pago" ColumnName="cod_tipo_medio_pago" />
+          <ScalarProperty Name="cod_tipo_medio_pago_ple" ColumnName="cod_tipo_medio_pago_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt02_tipo_doc_identidad">
+      <EntityTypeMapping TypeName="EagleModel.SNTt02_tipo_doc_identidad">
+        <MappingFragment StoreEntitySet="SNTt02_tipo_doc_identidad">
+          <ScalarProperty Name="id_tipo_doc_identidad" ColumnName="id_tipo_doc_identidad" />
+          <ScalarProperty Name="cod_tipo_doc_identidad" ColumnName="cod_tipo_doc_identidad" />
+          <ScalarProperty Name="cod_tipo_doc_identidad_ple" ColumnName="cod_tipo_doc_identidad_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt03_entidad_financiera">
+      <EntityTypeMapping TypeName="EagleModel.SNTt03_entidad_financiera">
+        <MappingFragment StoreEntitySet="SNTt03_entidad_financiera">
+          <ScalarProperty Name="id_entidad_financiera" ColumnName="id_entidad_financiera" />
+          <ScalarProperty Name="cod_entidad_financiera" ColumnName="cod_entidad_financiera" />
+          <ScalarProperty Name="cod_entidad_financiera_ple" ColumnName="cod_entidad_financiera_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt04_tipo_moneda">
+      <EntityTypeMapping TypeName="EagleModel.SNTt04_tipo_moneda">
+        <MappingFragment StoreEntitySet="SNTt04_tipo_moneda">
+          <ScalarProperty Name="id_tipo_moneda" ColumnName="id_tipo_moneda" />
+          <ScalarProperty Name="cod_tipo_moneda" ColumnName="cod_tipo_moneda" />
+          <ScalarProperty Name="cod_tipo_moneda_ple" ColumnName="cod_tipo_moneda_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="dec_cambio" ColumnName="dec_cambio" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_pais" ColumnName="txt_pais" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt05_tipo_existencia">
+      <EntityTypeMapping TypeName="EagleModel.SNTt05_tipo_existencia">
+        <MappingFragment StoreEntitySet="SNTt05_tipo_existencia">
+          <ScalarProperty Name="id_tipo_existencia" ColumnName="id_tipo_existencia" />
+          <ScalarProperty Name="cod_tipo_existencia" ColumnName="cod_tipo_existencia" />
+          <ScalarProperty Name="cod_tipo_existencia_ple" ColumnName="cod_tipo_existencia_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt06_unidad_medida">
+      <EntityTypeMapping TypeName="EagleModel.SNTt06_unidad_medida">
+        <MappingFragment StoreEntitySet="SNTt06_unidad_medida">
+          <ScalarProperty Name="id_um" ColumnName="id_um" />
+          <ScalarProperty Name="cod_um" ColumnName="cod_um" />
+          <ScalarProperty Name="cod_um_ple" ColumnName="cod_um_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="txt_unid_base" ColumnName="txt_unid_base" />
+          <ScalarProperty Name="id_um_base" ColumnName="id_um_base" />
+          <ScalarProperty Name="txt_operacion" ColumnName="txt_operacion" />
+          <ScalarProperty Name="dec_factor" ColumnName="dec_factor" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt07_tipo_intangible">
+      <EntityTypeMapping TypeName="EagleModel.SNTt07_tipo_intangible">
+        <MappingFragment StoreEntitySet="SNTt07_tipo_intangible">
+          <ScalarProperty Name="id_tipo_intangible" ColumnName="id_tipo_intangible" />
+          <ScalarProperty Name="cod_tipo_intangible" ColumnName="cod_tipo_intangible" />
+          <ScalarProperty Name="cod_tipo_intangible_ple" ColumnName="cod_tipo_intangible_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt08_codigo_libro">
+      <EntityTypeMapping TypeName="EagleModel.SNTt08_codigo_libro">
+        <MappingFragment StoreEntitySet="SNTt08_codigo_libro">
+          <ScalarProperty Name="id_libro" ColumnName="id_libro" />
+          <ScalarProperty Name="cod_libro" ColumnName="cod_libro" />
+          <ScalarProperty Name="cod_libro_ple" ColumnName="cod_libro_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt09_cta_contable">
+      <EntityTypeMapping TypeName="EagleModel.SNTt09_cta_contable">
+        <MappingFragment StoreEntitySet="SNTt09_cta_contable">
+          <ScalarProperty Name="id_cta_contable" ColumnName="id_cta_contable" />
+          <ScalarProperty Name="cod_cta_contable" ColumnName="cod_cta_contable" />
+          <ScalarProperty Name="cod_cta_contable_ple" ColumnName="cod_cta_contable_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt10_tipo_comprobante">
+      <EntityTypeMapping TypeName="EagleModel.SNTt10_tipo_comprobante">
+        <MappingFragment StoreEntitySet="SNTt10_tipo_comprobante">
+          <ScalarProperty Name="id_tipo_comp" ColumnName="id_tipo_comp" />
+          <ScalarProperty Name="cod_tipo_comp" ColumnName="cod_tipo_comp" />
+          <ScalarProperty Name="cod_tipo_comp_ple" ColumnName="cod_tipo_comp_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_location" ColumnName="id_location" />
+          <ScalarProperty Name="cod_location" ColumnName="cod_location" />
+          <ScalarProperty Name="nro_caja" ColumnName="nro_caja" />
+          <ScalarProperty Name="nro_serie" ColumnName="nro_serie" />
+          <ScalarProperty Name="nro_inicial" ColumnName="nro_inicial" />
+          <ScalarProperty Name="nro_final" ColumnName="nro_final" />
+          <ScalarProperty Name="nro_contador" ColumnName="nro_contador" />
+          <ScalarProperty Name="sn_emito_comp" ColumnName="sn_emito_comp" />
+          <ScalarProperty Name="sn_recibo_comp" ColumnName="sn_recibo_comp" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt11_aduana">
+      <EntityTypeMapping TypeName="EagleModel.SNTt11_aduana">
+        <MappingFragment StoreEntitySet="SNTt11_aduana">
+          <ScalarProperty Name="id_aduana" ColumnName="id_aduana" />
+          <ScalarProperty Name="cod_aduana" ColumnName="cod_aduana" />
+          <ScalarProperty Name="cod_aduana_ple" ColumnName="cod_aduana_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt12_tipo_operacion">
+      <EntityTypeMapping TypeName="EagleModel.SNTt12_tipo_operacion">
+        <MappingFragment StoreEntitySet="SNTt12_tipo_operacion">
+          <ScalarProperty Name="id_tipo_operacion" ColumnName="id_tipo_operacion" />
+          <ScalarProperty Name="cod_tipo_operacion" ColumnName="cod_tipo_operacion" />
+          <ScalarProperty Name="cod_tipo_operacion_ple" ColumnName="cod_tipo_operacion_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt13_tipo_actividad">
+      <EntityTypeMapping TypeName="EagleModel.SNTt13_tipo_actividad">
+        <MappingFragment StoreEntitySet="SNTt13_tipo_actividad">
+          <ScalarProperty Name="id_tipo_operacion" ColumnName="id_tipo_operacion" />
+          <ScalarProperty Name="cod_tipo_actividad" ColumnName="cod_tipo_actividad" />
+          <ScalarProperty Name="cod_tipo_actividad_ple" ColumnName="cod_tipo_actividad_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt14_nacionalidad">
+      <EntityTypeMapping TypeName="EagleModel.SNTt14_nacionalidad">
+        <MappingFragment StoreEntitySet="SNTt14_nacionalidad">
+          <ScalarProperty Name="id_nacionalidad" ColumnName="id_nacionalidad" />
+          <ScalarProperty Name="cod_nacionalidad" ColumnName="cod_nacionalidad" />
+          <ScalarProperty Name="cod_nacionalidad_ple" ColumnName="cod_nacionalidad_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt15_via">
+      <EntityTypeMapping TypeName="EagleModel.SNTt15_via">
+        <MappingFragment StoreEntitySet="SNTt15_via">
+          <ScalarProperty Name="id_via" ColumnName="id_via" />
+          <ScalarProperty Name="cod_via" ColumnName="cod_via" />
+          <ScalarProperty Name="cod_via_ple" ColumnName="cod_via_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt16_zona">
+      <EntityTypeMapping TypeName="EagleModel.SNTt16_zona">
+        <MappingFragment StoreEntitySet="SNTt16_zona">
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+          <ScalarProperty Name="cod_zona" ColumnName="cod_zona" />
+          <ScalarProperty Name="cod_zona_ple" ColumnName="cod_zona_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt17_tipo_trabajador">
+      <EntityTypeMapping TypeName="EagleModel.SNTt17_tipo_trabajador">
+        <MappingFragment StoreEntitySet="SNTt17_tipo_trabajador">
+          <ScalarProperty Name="id_tipo_trabajador" ColumnName="id_tipo_trabajador" />
+          <ScalarProperty Name="cod_tipo_trabajador" ColumnName="cod_tipo_trabajador" />
+          <ScalarProperty Name="cod_tipo_trabajador_ple" ColumnName="cod_tipo_trabajador_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt18_situacion_educativa">
+      <EntityTypeMapping TypeName="EagleModel.SNTt18_situacion_educativa">
+        <MappingFragment StoreEntitySet="SNTt18_situacion_educativa">
+          <ScalarProperty Name="id_situacion_educativa" ColumnName="id_situacion_educativa" />
+          <ScalarProperty Name="cod_situacion_educativa" ColumnName="cod_situacion_educativa" />
+          <ScalarProperty Name="cod_situacion_educativa_ple" ColumnName="cod_situacion_educativa_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt19_ocupacion">
+      <EntityTypeMapping TypeName="EagleModel.SNTt19_ocupacion">
+        <MappingFragment StoreEntitySet="SNTt19_ocupacion">
+          <ScalarProperty Name="id_ocupacion" ColumnName="id_ocupacion" />
+          <ScalarProperty Name="cod_ocupacion" ColumnName="cod_ocupacion" />
+          <ScalarProperty Name="cod_ocupacion_ple" ColumnName="cod_ocupacion_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt20_regimen_pensionario">
+      <EntityTypeMapping TypeName="EagleModel.SNTt20_regimen_pensionario">
+        <MappingFragment StoreEntitySet="SNTt20_regimen_pensionario">
+          <ScalarProperty Name="id_regimen_pensionario" ColumnName="id_regimen_pensionario" />
+          <ScalarProperty Name="cod_regimen_pensionario" ColumnName="cod_regimen_pensionario" />
+          <ScalarProperty Name="cod_regimen_pensionario_ple" ColumnName="cod_regimen_pensionario_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt21_condicion_laboral">
+      <EntityTypeMapping TypeName="EagleModel.SNTt21_condicion_laboral">
+        <MappingFragment StoreEntitySet="SNTt21_condicion_laboral">
+          <ScalarProperty Name="id_condicion_laboral" ColumnName="id_condicion_laboral" />
+          <ScalarProperty Name="cod_condicion_laboral" ColumnName="cod_condicion_laboral" />
+          <ScalarProperty Name="cod_condicion_laboral_ple" ColumnName="cod_condicion_laboral_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt22_periodo_remuneracion">
+      <EntityTypeMapping TypeName="EagleModel.SNTt22_periodo_remuneracion">
+        <MappingFragment StoreEntitySet="SNTt22_periodo_remuneracion">
+          <ScalarProperty Name="id_periodo_remuneracion" ColumnName="id_periodo_remuneracion" />
+          <ScalarProperty Name="cod_periodo_remuneracion" ColumnName="cod_periodo_remuneracion" />
+          <ScalarProperty Name="cod_periodo_remuneracion_ple" ColumnName="cod_periodo_remuneracion_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt23_salud_eps">
+      <EntityTypeMapping TypeName="EagleModel.SNTt23_salud_eps">
+        <MappingFragment StoreEntitySet="SNTt23_salud_eps">
+          <ScalarProperty Name="id_salud_eps" ColumnName="id_salud_eps" />
+          <ScalarProperty Name="cod_salud_eps" ColumnName="cod_salud_eps" />
+          <ScalarProperty Name="cod_salud_eps_ple" ColumnName="cod_salud_eps_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt24_situacion">
+      <EntityTypeMapping TypeName="EagleModel.SNTt24_situacion">
+        <MappingFragment StoreEntitySet="SNTt24_situacion">
+          <ScalarProperty Name="id_situacion" ColumnName="id_situacion" />
+          <ScalarProperty Name="cod_situacion" ColumnName="cod_situacion" />
+          <ScalarProperty Name="cod_situacion_ple" ColumnName="cod_situacion_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt25_motivo_baja">
+      <EntityTypeMapping TypeName="EagleModel.SNTt25_motivo_baja">
+        <MappingFragment StoreEntitySet="SNTt25_motivo_baja">
+          <ScalarProperty Name="id_motivo_baja" ColumnName="id_motivo_baja" />
+          <ScalarProperty Name="cod_motivo_baja" ColumnName="cod_motivo_baja" />
+          <ScalarProperty Name="cod_motivo_baja_ple" ColumnName="cod_motivo_baja_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt26_modalidad_formativa">
+      <EntityTypeMapping TypeName="EagleModel.SNTt26_modalidad_formativa">
+        <MappingFragment StoreEntitySet="SNTt26_modalidad_formativa">
+          <ScalarProperty Name="id_modalidad_formativa" ColumnName="id_modalidad_formativa" />
+          <ScalarProperty Name="cod_modalidad_formativa" ColumnName="cod_modalidad_formativa" />
+          <ScalarProperty Name="cod_modalidad_formativa_ple" ColumnName="cod_modalidad_formativa_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt27_vinculo_familiar">
+      <EntityTypeMapping TypeName="EagleModel.SNTt27_vinculo_familiar">
+        <MappingFragment StoreEntitySet="SNTt27_vinculo_familiar">
+          <ScalarProperty Name="id_vinculo_familiar" ColumnName="id_vinculo_familiar" />
+          <ScalarProperty Name="cod_vinculo_familiar" ColumnName="cod_vinculo_familiar" />
+          <ScalarProperty Name="cod_vinculo_familiar_ple" ColumnName="cod_vinculo_familiar_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt28_suspencion_laboral">
+      <EntityTypeMapping TypeName="EagleModel.SNTt28_suspencion_laboral">
+        <MappingFragment StoreEntitySet="SNTt28_suspencion_laboral">
+          <ScalarProperty Name="id_suspencion_laboral" ColumnName="id_suspencion_laboral" />
+          <ScalarProperty Name="cod_suspencion_laboral" ColumnName="cod_suspencion_laboral" />
+          <ScalarProperty Name="cod_suspencion_laboral_ple" ColumnName="cod_suspencion_laboral_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt29_regimen_salud">
+      <EntityTypeMapping TypeName="EagleModel.SNTt29_regimen_salud">
+        <MappingFragment StoreEntitySet="SNTt29_regimen_salud">
+          <ScalarProperty Name="id_regimen_salud" ColumnName="id_regimen_salud" />
+          <ScalarProperty Name="cod_regimen_salud" ColumnName="cod_regimen_salud" />
+          <ScalarProperty Name="cod_regimen_salud_ple" ColumnName="cod_regimen_salud_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt30_regimen_laboral">
+      <EntityTypeMapping TypeName="EagleModel.SNTt30_regimen_laboral">
+        <MappingFragment StoreEntitySet="SNTt30_regimen_laboral">
+          <ScalarProperty Name="id_regimen_laboral" ColumnName="id_regimen_laboral" />
+          <ScalarProperty Name="cod_regimen_laboral" ColumnName="cod_regimen_laboral" />
+          <ScalarProperty Name="cod_regimen_laboral_ple" ColumnName="cod_regimen_laboral_ple" />
+          <ScalarProperty Name="txt_abrv" ColumnName="txt_abrv" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt31_departamento">
+      <EntityTypeMapping TypeName="EagleModel.SNTt31_departamento">
+        <MappingFragment StoreEntitySet="SNTt31_departamento">
+          <ScalarProperty Name="id_dpto" ColumnName="id_dpto" />
+          <ScalarProperty Name="cod_dpto" ColumnName="cod_dpto" />
+          <ScalarProperty Name="cod_dpto_ple" ColumnName="cod_dpto_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt32_provincia">
+      <EntityTypeMapping TypeName="EagleModel.SNTt32_provincia">
+        <MappingFragment StoreEntitySet="SNTt32_provincia">
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="cod_prov" ColumnName="cod_prov" />
+          <ScalarProperty Name="cod_prov_ple" ColumnName="cod_prov_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_dpto" ColumnName="id_dpto" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SNTt33_distrito">
+      <EntityTypeMapping TypeName="EagleModel.SNTt33_distrito">
+        <MappingFragment StoreEntitySet="SNTt33_distrito">
+          <ScalarProperty Name="id_dist" ColumnName="id_dist" />
+          <ScalarProperty Name="cod_dist" ColumnName="cod_dist" />
+          <ScalarProperty Name="cod_dist_ple" ColumnName="cod_dist_ple" />
+          <ScalarProperty Name="txt_desc" ColumnName="txt_desc" />
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="EagleModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt01_comp_recibido">
+      <EntityTypeMapping TypeName="EagleModel.TNSt01_comp_recibido">
+        <MappingFragment StoreEntitySet="TNSt01_comp_recibido">
+          <ScalarProperty Name="id_comp_recibido" ColumnName="id_comp_recibido" />
+          <ScalarProperty Name="nro_comp_recibido" ColumnName="nro_comp_recibido" />
+          <ScalarProperty Name="id_tipo_comp" ColumnName="id_tipo_comp" />
+          <ScalarProperty Name="txt_serie" ColumnName="txt_serie" />
+          <ScalarProperty Name="txt_numero" ColumnName="txt_numero" />
+          <ScalarProperty Name="fec_reg_recibido" ColumnName="fec_reg_recibido" />
+          <ScalarProperty Name="fec_emi" ColumnName="fec_emi" />
+          <ScalarProperty Name="fec_vcto" ColumnName="fec_vcto" />
+          <ScalarProperty Name="fec_canc" ColumnName="fec_canc" />
+          <ScalarProperty Name="id_tipo_moneda" ColumnName="id_tipo_moneda" />
+          <ScalarProperty Name="id_tipo_orden" ColumnName="id_tipo_orden" />
+          <ScalarProperty Name="por_impto" ColumnName="por_impto" />
+          <ScalarProperty Name="txt_observ" ColumnName="txt_observ" />
+          <ScalarProperty Name="mto_tc_vta" ColumnName="mto_tc_vta" />
+          <ScalarProperty Name="mto_neto" ColumnName="mto_neto" />
+          <ScalarProperty Name="mto_exonerado" ColumnName="mto_exonerado" />
+          <ScalarProperty Name="mto_no_afecto" ColumnName="mto_no_afecto" />
+          <ScalarProperty Name="mto_dscto_tot" ColumnName="mto_dscto_tot" />
+          <ScalarProperty Name="mto_cms_tot" ColumnName="mto_cms_tot" />
+          <ScalarProperty Name="mto_flete_tot" ColumnName="mto_flete_tot" />
+          <ScalarProperty Name="mto_sub_tot" ColumnName="mto_sub_tot" />
+          <ScalarProperty Name="mto_impto_tot" ColumnName="mto_impto_tot" />
+          <ScalarProperty Name="mto_servicio" ColumnName="mto_servicio" />
+          <ScalarProperty Name="mto_tot_comp" ColumnName="mto_tot_comp" />
+          <ScalarProperty Name="ref_tipo_comprobante" ColumnName="ref_tipo_comprobante" />
+          <ScalarProperty Name="ref_fecha" ColumnName="ref_fecha" />
+          <ScalarProperty Name="ref_serie" ColumnName="ref_serie" />
+          <ScalarProperty Name="ref_numero" ColumnName="ref_numero" />
+          <ScalarProperty Name="sn_credito" ColumnName="sn_credito" />
+          <ScalarProperty Name="sn_cancelada" ColumnName="sn_cancelada" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="id_impuesto" ColumnName="id_impuesto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt02_comp_recibido_dtl">
+      <EntityTypeMapping TypeName="EagleModel.TNSt02_comp_recibido_dtl">
+        <MappingFragment StoreEntitySet="TNSt02_comp_recibido_dtl">
+          <ScalarProperty Name="id_comp_recibido_dtl" ColumnName="id_comp_recibido_dtl" />
+          <ScalarProperty Name="id_comp_recibido" ColumnName="id_comp_recibido" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="txt_producto" ColumnName="txt_producto" />
+          <ScalarProperty Name="id_um" ColumnName="id_um" />
+          <ScalarProperty Name="qt_comp" ColumnName="qt_comp" />
+          <ScalarProperty Name="punit_sin_igv" ColumnName="punit_sin_igv" />
+          <ScalarProperty Name="punit_con_igv" ColumnName="punit_con_igv" />
+          <ScalarProperty Name="por_dscto" ColumnName="por_dscto" />
+          <ScalarProperty Name="punit_dscto_sin_igv" ColumnName="punit_dscto_sin_igv" />
+          <ScalarProperty Name="punit_dscto_con_igv" ColumnName="punit_dscto_con_igv" />
+          <ScalarProperty Name="mto_comp_sin_igv" ColumnName="mto_comp_sin_igv" />
+          <ScalarProperty Name="mto_comp_con_igv" ColumnName="mto_comp_con_igv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt03_comp_recibido_estado">
+      <EntityTypeMapping TypeName="EagleModel.TNSt03_comp_recibido_estado">
+        <MappingFragment StoreEntitySet="TNSt03_comp_recibido_estado">
+          <ScalarProperty Name="id_comp_recibido_estado" ColumnName="id_comp_recibido_estado" />
+          <ScalarProperty Name="id_comp_recibido" ColumnName="id_comp_recibido" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt04_comp_emitido">
+      <EntityTypeMapping TypeName="EagleModel.TNSt04_comp_emitido">
+        <MappingFragment StoreEntitySet="TNSt04_comp_emitido">
+          <ScalarProperty Name="id_comp_emitido" ColumnName="id_comp_emitido" />
+          <ScalarProperty Name="nro_comp_emitido" ColumnName="nro_comp_emitido" />
+          <ScalarProperty Name="id_tipo_comp" ColumnName="id_tipo_comp" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+          <ScalarProperty Name="id_emp_autorizador" ColumnName="id_emp_autorizador" />
+          <ScalarProperty Name="cod_caja" ColumnName="cod_caja" />
+          <ScalarProperty Name="txt_serie" ColumnName="txt_serie" />
+          <ScalarProperty Name="txt_numero" ColumnName="txt_numero" />
+          <ScalarProperty Name="txt_serie_fe" ColumnName="txt_serie_fe" />
+          <ScalarProperty Name="txt_numero_fe" ColumnName="txt_numero_fe" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="fec_reg_emitido" ColumnName="fec_reg_emitido" />
+          <ScalarProperty Name="fec_emi" ColumnName="fec_emi" />
+          <ScalarProperty Name="fec_vcto" ColumnName="fec_vcto" />
+          <ScalarProperty Name="fec_canc" ColumnName="fec_canc" />
+          <ScalarProperty Name="id_tipo_moneda" ColumnName="id_tipo_moneda" />
+          <ScalarProperty Name="id_can_vta" ColumnName="id_can_vta" />
+          <ScalarProperty Name="id_tipo_orden" ColumnName="id_tipo_orden" />
+          <ScalarProperty Name="id_location" ColumnName="id_location" />
+          <ScalarProperty Name="txt_observ" ColumnName="txt_observ" />
+          <ScalarProperty Name="mto_tc_vta" ColumnName="mto_tc_vta" />
+          <ScalarProperty Name="mto_neto" ColumnName="mto_neto" />
+          <ScalarProperty Name="mto_exonerado" ColumnName="mto_exonerado" />
+          <ScalarProperty Name="mto_no_afecto" ColumnName="mto_no_afecto" />
+          <ScalarProperty Name="mto_dscto_tot" ColumnName="mto_dscto_tot" />
+          <ScalarProperty Name="mto_servicio" ColumnName="mto_servicio" />
+          <ScalarProperty Name="mto_sub_tot" ColumnName="mto_sub_tot" />
+          <ScalarProperty Name="mto_impto_tot" ColumnName="mto_impto_tot" />
+          <ScalarProperty Name="mto_tot_comp" ColumnName="mto_tot_comp" />
+          <ScalarProperty Name="ref_id_comp_emitido" ColumnName="ref_id_comp_emitido" />
+          <ScalarProperty Name="ref_tipo_comprobante" ColumnName="ref_tipo_comprobante" />
+          <ScalarProperty Name="ref_fecha" ColumnName="ref_fecha" />
+          <ScalarProperty Name="ref_serie" ColumnName="ref_serie" />
+          <ScalarProperty Name="ref_numero" ColumnName="ref_numero" />
+          <ScalarProperty Name="sn_chk_abierto" ColumnName="sn_chk_abierto" />
+          <ScalarProperty Name="sn_chk_enviado" ColumnName="sn_chk_enviado" />
+          <ScalarProperty Name="tax_por01" ColumnName="tax_por01" />
+          <ScalarProperty Name="tax_por02" ColumnName="tax_por02" />
+          <ScalarProperty Name="tax_por03" ColumnName="tax_por03" />
+          <ScalarProperty Name="tax_por04" ColumnName="tax_por04" />
+          <ScalarProperty Name="tax_por05" ColumnName="tax_por05" />
+          <ScalarProperty Name="tax_por06" ColumnName="tax_por06" />
+          <ScalarProperty Name="tax_por07" ColumnName="tax_por07" />
+          <ScalarProperty Name="tax_por08" ColumnName="tax_por08" />
+          <ScalarProperty Name="tax_mto01" ColumnName="tax_mto01" />
+          <ScalarProperty Name="tax_mto02" ColumnName="tax_mto02" />
+          <ScalarProperty Name="tax_mto03" ColumnName="tax_mto03" />
+          <ScalarProperty Name="tax_mto04" ColumnName="tax_mto04" />
+          <ScalarProperty Name="tax_mto05" ColumnName="tax_mto05" />
+          <ScalarProperty Name="tax_mto06" ColumnName="tax_mto06" />
+          <ScalarProperty Name="tax_mto07" ColumnName="tax_mto07" />
+          <ScalarProperty Name="tax_mto08" ColumnName="tax_mto08" />
+          <ScalarProperty Name="info01" ColumnName="info01" />
+          <ScalarProperty Name="info02" ColumnName="info02" />
+          <ScalarProperty Name="info03" ColumnName="info03" />
+          <ScalarProperty Name="info04" ColumnName="info04" />
+          <ScalarProperty Name="info05" ColumnName="info05" />
+          <ScalarProperty Name="info06" ColumnName="info06" />
+          <ScalarProperty Name="info07" ColumnName="info07" />
+          <ScalarProperty Name="info08" ColumnName="info08" />
+          <ScalarProperty Name="info09" ColumnName="info09" />
+          <ScalarProperty Name="info10" ColumnName="info10" />
+          <ScalarProperty Name="info_date01" ColumnName="info_date01" />
+          <ScalarProperty Name="info_date02" ColumnName="info_date02" />
+          <ScalarProperty Name="info_date03" ColumnName="info_date03" />
+          <ScalarProperty Name="info_date04" ColumnName="info_date04" />
+          <ScalarProperty Name="info_date05" ColumnName="info_date05" />
+          <ScalarProperty Name="info_mto01" ColumnName="info_mto01" />
+          <ScalarProperty Name="info_mto02" ColumnName="info_mto02" />
+          <ScalarProperty Name="info_mto03" ColumnName="info_mto03" />
+          <ScalarProperty Name="info_mto04" ColumnName="info_mto04" />
+          <ScalarProperty Name="info_mto05" ColumnName="info_mto05" />
+          <ScalarProperty Name="num_comensales" ColumnName="num_comensales" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="id_mesa" ColumnName="id_mesa" />
+          <ScalarProperty Name="id_turno" ColumnName="id_turno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt05_comp_emitido_dtl">
+      <EntityTypeMapping TypeName="EagleModel.TNSt05_comp_emitido_dtl">
+        <MappingFragment StoreEntitySet="TNSt05_comp_emitido_dtl">
+          <ScalarProperty Name="id_comp_emitido_dtl" ColumnName="id_comp_emitido_dtl" />
+          <ScalarProperty Name="id_comp_emitido" ColumnName="id_comp_emitido" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="txt_producto" ColumnName="txt_producto" />
+          <ScalarProperty Name="id_um" ColumnName="id_um" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="por_dscto" ColumnName="por_dscto" />
+          <ScalarProperty Name="mto_dscto_sin_tax" ColumnName="mto_dscto_sin_tax" />
+          <ScalarProperty Name="mto_dscto_con_tax" ColumnName="mto_dscto_con_tax" />
+          <ScalarProperty Name="punit_sin_tax" ColumnName="punit_sin_tax" />
+          <ScalarProperty Name="punit_con_tax" ColumnName="punit_con_tax" />
+          <ScalarProperty Name="tax_por_tot" ColumnName="tax_por_tot" />
+          <ScalarProperty Name="tax_mto_tot" ColumnName="tax_mto_tot" />
+          <ScalarProperty Name="tax_por01" ColumnName="tax_por01" />
+          <ScalarProperty Name="tax_por02" ColumnName="tax_por02" />
+          <ScalarProperty Name="tax_por03" ColumnName="tax_por03" />
+          <ScalarProperty Name="tax_por04" ColumnName="tax_por04" />
+          <ScalarProperty Name="tax_por05" ColumnName="tax_por05" />
+          <ScalarProperty Name="tax_por06" ColumnName="tax_por06" />
+          <ScalarProperty Name="tax_por07" ColumnName="tax_por07" />
+          <ScalarProperty Name="tax_por08" ColumnName="tax_por08" />
+          <ScalarProperty Name="tax_mto01" ColumnName="tax_mto01" />
+          <ScalarProperty Name="tax_mto02" ColumnName="tax_mto02" />
+          <ScalarProperty Name="tax_mto03" ColumnName="tax_mto03" />
+          <ScalarProperty Name="tax_mto04" ColumnName="tax_mto04" />
+          <ScalarProperty Name="tax_mto05" ColumnName="tax_mto05" />
+          <ScalarProperty Name="tax_mto06" ColumnName="tax_mto06" />
+          <ScalarProperty Name="tax_mto07" ColumnName="tax_mto07" />
+          <ScalarProperty Name="tax_mto08" ColumnName="tax_mto08" />
+          <ScalarProperty Name="mto_vta_sin_tax" ColumnName="mto_vta_sin_tax" />
+          <ScalarProperty Name="mto_vta_con_tax" ColumnName="mto_vta_con_tax" />
+          <ScalarProperty Name="id_razon" ColumnName="id_razon" />
+          <ScalarProperty Name="txt_observ" ColumnName="txt_observ" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt06_comp_emitido_estado">
+      <EntityTypeMapping TypeName="EagleModel.TNSt06_comp_emitido_estado">
+        <MappingFragment StoreEntitySet="TNSt06_comp_emitido_estado">
+          <ScalarProperty Name="id_comp_emitido_estado" ColumnName="id_comp_emitido_estado" />
+          <ScalarProperty Name="id_comp_emitido" ColumnName="id_comp_emitido" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt07_medio_pago_dtl">
+      <EntityTypeMapping TypeName="EagleModel.TNSt07_medio_pago_dtl">
+        <MappingFragment StoreEntitySet="TNSt07_medio_pago_dtl">
+          <ScalarProperty Name="id_medio_pago_dtl" ColumnName="id_medio_pago_dtl" />
+          <ScalarProperty Name="id_comp_emitido" ColumnName="id_comp_emitido" />
+          <ScalarProperty Name="id_medio_pago" ColumnName="id_medio_pago" />
+          <ScalarProperty Name="impuesto" ColumnName="impuesto" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="mto_tipo_cambio" ColumnName="mto_tipo_cambio" />
+          <ScalarProperty Name="txt_observ" ColumnName="txt_observ" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TNSt08_descuento_dtl">
+      <EntityTypeMapping TypeName="EagleModel.TNSt08_descuento_dtl">
+        <MappingFragment StoreEntitySet="TNSt08_descuento_dtl">
+          <ScalarProperty Name="id_descuento_dtl" ColumnName="id_descuento_dtl" />
+          <ScalarProperty Name="id_comp_emitido" ColumnName="id_comp_emitido" />
+          <ScalarProperty Name="id_descuento" ColumnName="id_descuento" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+          <ScalarProperty Name="id_razon" ColumnName="id_razon" />
+          <ScalarProperty Name="txt_observ" ColumnName="txt_observ" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TOTt01_total_diario_vta">
+      <EntityTypeMapping TypeName="EagleModel.TOTt01_total_diario_vta">
+        <MappingFragment StoreEntitySet="TOTt01_total_diario_vta">
+          <ScalarProperty Name="id_total_diario_vta" ColumnName="id_total_diario_vta" />
+          <ScalarProperty Name="id_location" ColumnName="id_location" />
+          <ScalarProperty Name="fec_registro" ColumnName="fec_registro" />
+          <ScalarProperty Name="fec_negocio" ColumnName="fec_negocio" />
+          <ScalarProperty Name="cant_ordenes" ColumnName="cant_ordenes" />
+          <ScalarProperty Name="mto_ordenes" ColumnName="mto_ordenes" />
+          <ScalarProperty Name="cant_boletas" ColumnName="cant_boletas" />
+          <ScalarProperty Name="mto_boletas" ColumnName="mto_boletas" />
+          <ScalarProperty Name="cant_facturas" ColumnName="cant_facturas" />
+          <ScalarProperty Name="mto_facturas" ColumnName="mto_facturas" />
+          <ScalarProperty Name="cant_not_cred" ColumnName="cant_not_cred" />
+          <ScalarProperty Name="mto_not_cred" ColumnName="mto_not_cred" />
+          <ScalarProperty Name="cant_comprobantes" ColumnName="cant_comprobantes" />
+          <ScalarProperty Name="mto_comprobantes" ColumnName="mto_comprobantes" />
+          <ScalarProperty Name="mto_forma_pago01" ColumnName="mto_forma_pago01" />
+          <ScalarProperty Name="mto_forma_pago02" ColumnName="mto_forma_pago02" />
+          <ScalarProperty Name="mto_forma_pago03" ColumnName="mto_forma_pago03" />
+          <ScalarProperty Name="mto_forma_pago04" ColumnName="mto_forma_pago04" />
+          <ScalarProperty Name="mto_forma_pago05" ColumnName="mto_forma_pago05" />
+          <ScalarProperty Name="mto_forma_pago06" ColumnName="mto_forma_pago06" />
+          <ScalarProperty Name="mto_forma_pago07" ColumnName="mto_forma_pago07" />
+          <ScalarProperty Name="mto_forma_pago08" ColumnName="mto_forma_pago08" />
+          <ScalarProperty Name="mto_forma_pago09" ColumnName="mto_forma_pago09" />
+          <ScalarProperty Name="mto_forma_pago10" ColumnName="mto_forma_pago10" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="txt_usuario" ColumnName="txt_usuario" />
+          <ScalarProperty Name="id_estado" ColumnName="id_estado" />
+          <ScalarProperty Name="txt_estado" ColumnName="txt_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
